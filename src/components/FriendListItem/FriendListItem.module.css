@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Montserrat';
+}
+li {
+  list-style: none;
+}
+.item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  height: 90px;
+  width: 250px;
+  display: flex;
+}
+.status {
+  margin: auto 0 auto 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ff00ff;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin: auto 0 auto 10px;
+  border-radius: 10px;
+}
+.name {
+  margin: auto 0 auto 15px;
+}
+.online {
+ background-color: #ff0000;
+}
+.offline {
+background-color: #00ff00;
+}

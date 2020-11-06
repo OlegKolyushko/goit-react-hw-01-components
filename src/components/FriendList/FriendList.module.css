@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: 'Montserrat';
+  }
+  li {
+    list-style: none;
+  }
+  .friendList {
+      width: 100px;
+      height: 500px;
+      margin: auto;
+  }

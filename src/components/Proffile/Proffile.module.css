@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Montserrat';
+}
+li {
+  list-style: none;
+}
+
+.profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.description {
+  margin-bottom: 1px;
+}
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin: 15px 0 20px 0;
+}
+.name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.tag {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.location {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  background-color: aqua;
+  border-top: 1px solid #000;
+}
+.item {
+  margin: auto 0 auto 0;
+  height: 75px;
+  width: 75px;
+  border-left: 1px solid #000;
+  margin: auto;
+}
+.item:first-child {
+  border-left: none;
+}
+.itemCont {
+  margin: 15px;
+}
+.label {
+  font-weight: 400;
+}
+.quantity {
+  font-weight: 700;
+}
